@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('./fonts/Oswald-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #FFFDD0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #DC143C;
+}
+
+h2 {
+  font-size: 24px;
+  color: #DAA520;
+}
+
+h3 {
+  font-size: 18px;
+  color: #DAA520;
+}
+
+small {
+  font-size: 12px;
+  color: #006400;
+}
+
+input, select, textarea {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid #DAA520;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  padding: 10px 24px;
+  background-color: #DAA520;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #DC143C;
+}
+
+.error {
+  color: #DC143C;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.success {
+  color: #006400;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #fff;
+  border: 1px solid #FFDAB9;
+  border-radius: 8px;
+}
+
+nav {
+  background-color: #DAA520;
+  padding: 12px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+nav a, nav button {
+  color: #fff;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+}
+
+nav a:hover, nav button:hover {
+  color: #FFFDD0;
+  background: none;
+}
